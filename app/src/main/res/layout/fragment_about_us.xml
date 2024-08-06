@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/img3"
+    tools:context=".Login">
+
+    <TextView
+        android:layout_width="316dp"
+        android:layout_height="wrap_content"
+        android:text="About Us"
+        android:textColor="#575252"
+        android:gravity="center"
+        android:textSize="35sp"
+        android:textStyle="bold" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:backgroundTint="#FFFFFF"
+        app:cardBackgroundColor="#95FFFFFF"
+        app:cardCornerRadius="30dp"
+        app:cardElevation="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/lavendar_border"
+            android:backgroundTint="#74FFFFFF"
+            android:orientation="vertical"
+            android:padding="24dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="192dp"
+                android:text="
+We are a team of Christ University students spearheading the development of a lost and found app. Our mission is to streamline the retrieval and return of lost items within our campus community, fostering a culture of accountability and solidarity. Led by Yash Tolani and Argha Dutta, our aim is to simplify the process of reconnecting individuals with their lost belongings, promoting responsibility and unity among our peers."
+                android:textAlignment="viewStart"
+                android:textColor="#575252"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="We're here to make your life easier and encourage you to get involved in reuniting with your belongings. Thank you for being part of our journey!"
+                android:textAlignment="viewStart"
+                android:textColor="#575252"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+
+</LinearLayout>
